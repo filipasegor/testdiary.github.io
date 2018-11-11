@@ -1,0 +1,105 @@
+@import "reset.css";
+@import "fonts.css";
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+nav {
+  display: flex;
+
+  height: 90px;
+  padding: 0 15px;
+
+  color: #fff;
+  background-color: rgb(38, 38, 38);
+
+  font-family: "Proxima Nova";
+  font-size: 18px;
+  font-weight: 600;
+
+  justify-content: space-between;
+  align-items: center;
+}
+nav div {
+  display: flex;
+  justify-content: center;
+}
+
+nav div p {
+  font-family: "Proxima Nova";
+  font-size: 17px;
+  padding-top: 17px;
+  padding-left:20px;
+  line-height: 22px;
+
+}
+.logo{
+padding-left: 100px;
+}
+nav ul {
+  text-transform: uppercase;
+  display: flex;
+  padding-right: 550px;
+}
+
+nav ul:first-of-type {
+  padding-left: 150px;
+}
+
+nav ul li {
+  padding: 5px 15px;
+
+  letter-spacing: 1px;
+}
+
+nav ul:last-of-type {
+  align-items: center;
+}
+
+.has-3-cards {
+  padding-top: 20px;
+  padding-right: 90px;
+  padding-left: 90px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.card--1-of-3 {
+  width: 405px;
+}
+
+
+.round {
+    border-radius: 100px;
+   }
+
+
+h3{
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+h2{
+margin-left: 5px;
+}
+div.teacher{
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+}
+
+
+.category{
+  color: blue;
+  font-size: 13px;
+}
+
+.has-1-card{
+ display: flex;
+ align-items: flex-start;
+ justify-content: center;
+ padding-top: 40px;
+}
